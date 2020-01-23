@@ -4024,3 +4024,237 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 15:04:19.127
 !MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:13:52.778
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:13:52.779
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:13:52.784
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:13:52.784
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:13:52.784
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:13:52.790
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:14:09.063
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:14:09.063
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:14:09.063
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:14:09.064
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:14:09.064
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:14:09.065
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:11.909
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:11.909
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:11.910
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:11.910
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:11.910
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:11.912
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:27.817
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:27.817
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:27.818
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:27.818
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:27.818
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:46:27.820
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:41.080
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:41.080
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:41.081
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:41.081
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:41.081
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:41.083
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:51.586
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:51.586
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:51.587
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:51.587
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:51.587
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:47:51.588
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:00.883
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:00.883
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:00.884
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:00.884
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:00.884
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:00.885
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:09.982
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:09.982
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:09.983
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:09.983
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:09.983
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:09.985
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:15.315
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:15.315
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:15.316
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:15.316
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:15.316
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:15.319
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:24.343
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:24.343
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:24.343
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:24.343
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:24.344
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:24.345
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:34.712
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:34.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:34.713
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:34.713
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:34.713
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:48:34.714
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:05:26.284
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:05:26.284
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:05:26.285
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:05:26.286
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:05:26.286
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:05:26.288
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:47.814
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:47.814
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:47.815
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:47.815
+!MESSAGE buffering callback sts4.classpath.cMmKdObS ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:47.815
+!MESSAGE executing callback sts4.classpath.cMmKdObS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:47.817
+!MESSAGE executing callback sts4.classpath.cMmKdObS SUCCESS [done]
