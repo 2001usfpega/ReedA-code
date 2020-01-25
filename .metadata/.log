@@ -9280,3 +9280,908 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:37:57.575
 !MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:51:58.158
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:51:58.158
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:51:58.159
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:51:58.159
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:51:58.159
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 14:51:58.161
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:01:31.478
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:01:31.479
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:01:31.479
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:01:31.480
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:01:31.480
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:01:31.481
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:06.843
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:06.843
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:06.844
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:06.844
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:06.844
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:06.846
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:24.216
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:24.217
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:24.217
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:24.217
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:24.217
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:24.219
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:48.467
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:48.467
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:48.468
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:48.468
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:48.468
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:48.470
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:56.969
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:56.970
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:56.970
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:56.970
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:56.970
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:02:56.972
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:03:17.667
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:03:17.667
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:03:17.668
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:03:17.668
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:03:17.668
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:03:17.669
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:04:18.006
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:04:18.007
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:04:18.007
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:04:18.008
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:04:18.008
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:04:18.012
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:33.568
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:33.568
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:33.568
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:33.569
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:33.569
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:33.571
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:35.618
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:35.618
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:35.619
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:35.619
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:35.619
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:35.620
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:42.178
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:42.178
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:42.179
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:42.179
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:42.179
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:05:42.181
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:07:11.045
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:07:11.045
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:07:11.046
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:07:11.046
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:07:11.046
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:07:11.048
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:10:36.461
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:10:36.461
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:10:36.461
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:10:36.462
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:10:36.462
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:10:36.463
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:21:24.167
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:21:24.167
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:21:24.168
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:21:24.168
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:21:24.168
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:21:24.170
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:22:47.680
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:22:47.680
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:22:47.681
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:22:47.681
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:22:47.681
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:22:47.683
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:00.962
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:00.962
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:00.963
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:00.963
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:00.963
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:00.965
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:58.487
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:58.487
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:58.488
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:58.489
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:58.489
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:43:58.492
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:45:53.022
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:45:53.022
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:45:53.022
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:45:53.023
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:45:53.023
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:45:53.024
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:48:02.002
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:48:02.002
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:48:02.003
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:48:02.003
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:48:02.003
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:48:02.005
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:51:59.187
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:51:59.187
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:51:59.188
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:51:59.188
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:51:59.188
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:51:59.190
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:52:34.709
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:52:34.709
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:52:34.710
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:52:34.710
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:52:34.710
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:52:34.712
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:54:11.086
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:54:11.086
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:54:11.086
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:54:11.087
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:54:11.087
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:54:11.089
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:33.502
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:33.502
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:33.503
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:33.503
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:33.503
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:33.505
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:35.667
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:35.667
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:35.667
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:35.668
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:35.668
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:35.669
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:50.456
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:50.456
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:50.457
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:50.457
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:50.457
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:57:50.458
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:58:06.417
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:58:06.417
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:58:06.417
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:58:06.417
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:58:06.418
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:58:06.419
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:59:30.929
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:59:30.929
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:59:30.930
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:59:30.930
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:59:30.930
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 15:59:30.932
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:39.497
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:39.497
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:39.497
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:39.498
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:39.498
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:39.500
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:48.051
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:48.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:48.051
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:48.053
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:48.053
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:00:48.054
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:12.416
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:12.416
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:12.417
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:12.417
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:12.417
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:12.419
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:17.293
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:17.294
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:17.294
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:17.295
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:17.295
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:17.296
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:35.321
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:35.321
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:35.322
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:35.322
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:35.322
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:01:35.323
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:49.955
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:49.955
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:49.955
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:49.956
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:49.956
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:49.958
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:56.959
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:56.959
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:56.960
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:56.960
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:56.960
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:02:56.962
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:03:24.640
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:03:24.640
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:03:24.640
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:03:24.641
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:03:24.641
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:03:24.643
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:10:40.030
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:10:40.030
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:10:40.031
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:10:40.031
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:10:40.031
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:10:40.033
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:11:41.576
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:11:41.576
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:11:41.576
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:11:41.577
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:11:41.577
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:11:41.579
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:13:49.042
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:13:49.042
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:13:49.043
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:13:49.043
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:13:49.043
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:13:49.045
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:15:02.872
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:15:02.872
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:15:02.872
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:15:02.873
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:15:02.873
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:15:02.875
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:17:57.082
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:17:57.082
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:17:57.082
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:17:57.083
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:17:57.083
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:17:57.085
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:19:04.722
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:19:04.722
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:19:04.723
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:19:04.723
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:19:04.723
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:19:04.726
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:20:02.343
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:20:02.344
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:20:02.344
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:20:02.344
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:20:02.345
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:20:02.347
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:22:54.951
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:22:54.951
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:22:54.952
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:22:54.952
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:22:54.952
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:22:54.954
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2020-01-24 16:24:38.798
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Widget.filters(Widget.java:830)
+	at org.eclipse.swt.widgets.Control.scrollWheel(Control.java:2559)
+	at org.eclipse.swt.widgets.Link.scrollWheel(Link.java:596)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6208)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2158)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2401)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5426)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5586)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:131)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3807)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:34:19.969
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:34:19.969
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:34:19.970
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:34:19.970
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:34:19.970
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:34:19.972
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:33.764
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:33.765
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:33.765
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:33.765
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:33.766
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:33.767
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:40.643
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:40.643
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:40.643
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:40.644
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:40.644
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:40.646
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:58.440
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:58.440
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:58.441
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:58.441
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:58.441
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:35:58.442
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:36:22.089
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:36:22.089
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:36:22.090
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:36:22.090
+!MESSAGE buffering callback sts4.classpath.vdLVgBag ThatsSoMaven false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:36:22.090
+!MESSAGE executing callback sts4.classpath.vdLVgBag 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-24 16:36:22.092
+!MESSAGE executing callback sts4.classpath.vdLVgBag SUCCESS [done]
