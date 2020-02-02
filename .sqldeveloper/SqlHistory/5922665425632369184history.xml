@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/.sqldeveloper/daoSuperhuman_junction.sql]]></sql>
+		<connection><![CDATA[Superhuman]]></connection>
+		<timestamp><![CDATA[1580331184707]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.109]]></execTime>
+	</historyItem>
+</history>

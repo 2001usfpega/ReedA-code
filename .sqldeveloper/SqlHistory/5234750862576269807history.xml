@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT trunc(8886.77456787654567, 3) FROM dual;]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580311833657]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.044]]></execTime>
+	</historyItem>
+</history>

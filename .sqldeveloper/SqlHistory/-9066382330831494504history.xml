@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/pokemonddbtrevin.sql]]></sql>
+		<connection><![CDATA[revy_chans_database]]></connection>
+		<timestamp><![CDATA[1580249026899]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[4.606]]></execTime>
+	</historyItem>
+</history>

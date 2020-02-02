@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *FROM pokemon;]]></sql>
+		<connection><![CDATA[pokemondb]]></connection>
+		<timestamp><![CDATA[1580240870306]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.05]]></execTime>
+	</historyItem>
+</history>

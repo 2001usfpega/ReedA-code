@@ -1,0 +1,81 @@
+--PLSQLexample.sql
+
+--create a user
+CREATE USER fooddb IDENTIFIED BY p4ssw0rd;
+
+GRANT CONNECT, RESOURCE TO fooddb;
+GRANT DBA TO fooddb WITH ADMIN OPTION;
+
+CREATE TABLE food(
+    food_id NUMBER(15)
+    , food_name VARCHAR2(100) UNIQUE
+    , recipe VARCHAR2(500) NOT NULL
+    , PRIMARY KEY(food_id)
+);
+
+INSERT INTO food VALUES (0, 'Macaroni and Cheese', 'Pure love');
+INSERT INTO food VALUES (1, 'Bacon', 'Love and clogged arteries');
+INSERT INTO food VALUES (2, 'Cereal', 'Milk and stuff');
+INSERT INTO food VALUES (3, 'PB and J', 'Otters');
+INSERT INTO food VALUES (4, 'Spaghetti', 'Noodles and sauce');
+
+DROP TABLE food;
+
+SELECT * FROM food;
+
+--COMMIT;
+
+--STORED PROCEDURES - a function/method (method is attached to a class or object)
+--CREATE  procedure
+CREATE OR REPLACE PROCEDURE hello_world_procedure
+IS
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('HELLO WORLD!');
+END;
+/
+--INVOKE a procedure
+BEGIN
+    hello_world_procedure();
+END;
+/
+/*
+structure of a stored procedure in PL/SQL
+CREATE (OR REPLACE) PROCEDURE procedure_name (list of parameters)
+IS
+    declaration
+BEGIN
+    execution of logic
+EXCEPTION
+    exception
+END;
+/ must have slash at the end
+*/
+
+--INSERT stored procedure
+CREATE OR REPLACE PROCEDURE insert_food(f_id IN NUMBER, f_name IN VARCHAR2,
+    f_recipe IN VARCHAR2)
+IS
+BEGIN
+    INSERT INTO food VALUES (f_id, f_name, f_recipe);
+    COMMIT;
+END;
+/
+
+BEGIN
+    insert_food(11, 'pizza', 'cheese, bread, love');
+    insert_food(12, 'booze', 'booze ain''t foods');
+END;
+/
+
+COMMIT;
+
+SELECT * FROM food;
+
+--OUT
+CREATE OR REPLACE PROCEDURE get_food(f_id IN food.food_id%TYPE
+
+
+
+
+

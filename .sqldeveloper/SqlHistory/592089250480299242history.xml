@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT after_1968 FROM dual;]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580583862591]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.106]]></execTime>
+	</historyItem>
+</history>

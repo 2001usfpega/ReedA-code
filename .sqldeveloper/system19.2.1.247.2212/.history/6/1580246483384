@@ -1,0 +1,52 @@
+---QUERY BASICS!!!!!
+
+DESC employee
+--SELECT * <----------- * means all colums
+SELECT * FROM employee;
+--SELECT [column1, column2, etc] FROM [table name]
+SELECT lastname, firstname FROM employee;
+SELECT firstname, lastname FROM employee;
+--ALIAS (using AS) changes the name of the column temporarily
+SELECT lastname AS muffin, firstname AS button FROM employee;
+
+--DIFFERENT SELECTS
+SELECT * FROM employee;
+--WHERE CLAUSE - coffee filter
+SELECT * FROM employee WHERE title = 'Sales Support Agent';
+SELECT * FROM employee WHERE title = 'Sales Support Agent' AND firstname = 'Jane';
+SELECT * FROM employee WHERE firstname = 'Jane' OR firstname = 'Steve'
+    OR firstname = 'Nancy';
+
+SELECT * FROM employee WHERE reportsto > 1;
+
+--different ways to say "not equals"
+SELECT * FROM employee WHERE firstname != 'Jane';
+SELECT * FROM employee WHERE firstname ^= 'Jane';
+SELECT * FROM employee WHERE firstname <> 'Jane';
+SELECT * FROM employee WHERE NOT firstname = 'Jane';
+
+--NULL references
+--SELECT * FROM employee WHERE reportsto = null;
+--SELECT * FROM employee WHERE reportsto = (null);
+--SELECT * FROM employee WHERE reportsto = 'null';
+SELECT * FROM employee WHERE reportsto IS NULL;
+SELECT * FROM employee WHERE reportsto IS NOT NULL;
+
+DESC album;
+SELECT * FROM album;
+
+--LIKE keyword
+--% is a stand-in wildcard for 0 = or morecharacters
+-- _ is a stand-in wildcard for exactly one (1) character
+SELECT * FROM album WHERE title LIKE 'B%';
+SELECT * FROM album WHERE title LIKE '%Bi%';
+SELECT * FROM album WHERE title LIKE 'Big%O%ne%';
+SELECT * FROM album WHERE title LIKE 'BigOnes%';
+SELECT * FROM album WHERE title LIKE 'Big O_es%'; -- 1 result
+SELECT * FROM album WHERE title LIKE '%ig%O_nes'; -- 0 results
+
+DESC employee;
+SELECT * FROM employee ORDER BY firstname;
+
+
+

@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/.sqldeveloper/PLSQLexample.sql]]></sql>
+		<connection><![CDATA[Food DB]]></connection>
+		<timestamp><![CDATA[1580593723910]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[4]]></executed>
+		<execTime><![CDATA[0.123]]></execTime>
+	</historyItem>
+</history>

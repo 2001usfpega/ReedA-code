@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT customerid, total, invoiceid FROM (SELECT * FROM
+    invoice WHERE total > 16.00) WHERE invoiceid > 200;]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580248291578]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[3]]></executed>
+		<execTime><![CDATA[12.222]]></execTime>
+	</historyItem>
+</history>

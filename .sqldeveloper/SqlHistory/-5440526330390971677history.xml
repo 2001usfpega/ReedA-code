@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT COUNT(*) FROM artist a FULL OUTER JOIN album b ON a.artistid = b.artistid;]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580328622252]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.048]]></execTime>
+	</historyItem>
+</history>

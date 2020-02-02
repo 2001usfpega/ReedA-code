@@ -1,0 +1,183 @@
+--SQL Lab!
+--Made by Alia Reed
+
+----Task 2.1!
+--Select all records from the Employee table.
+SELECT * FROM employee;
+
+--Select all records from the Employee table where last name is King.
+SELECT * FROM employee WHERE lastname = 'King';
+
+--Select all records from the Employee table where first name is Andrew and REPORTSTO is NULL.
+SELECT * FROM employee WHERE firstname = 'Andrew' AND reportsto IS NULL;
+
+----Task 2.2!
+--Select all albums in Album table and sort result set in descending order by title.
+SELECT * FROM album ORDER BY title DESC;
+
+--Select first name from Customer and sort result set in ascending order by city
+SELECT * FROM customer ORDER BY city ASC;
+
+----Task 2.3!
+--Insert two new records into Genre table.
+SELECT * FROM genre;
+INSERT INTO genre VALUES(26, 'Anime OSTs');
+INSERT INTO genre VALUES(27, 'Video Game OSTs');
+
+--Insert two new records into Employee table.
+SELECT * FROM employee;
+INSERT INTO employee VALUES(9, 'Lane',' Mazikeen', 'Secretary', NULL,' 08-JUN-32'
+    ,'09-JUN-75','18 Deadman''s Wonderland', 'Heck', 'Heck', 'Heck', '666'
+    ,'+1 (666) 666-6669', '+1 (666) 420-4200', 'mazikeen@chinookcorp.com');
+INSERT INTO employee VALUES(10, 'Beur', 'Zaqary', 'Secretary', NULL, '12-APR-27'
+    ,'01-APR-77','19 Deadman''s Wonderland', 'Heck', 'Heck', 'Heck', '666'
+    , '+1 (666) 666-6669' ,'+1 (666) 420-4200', 'zaqary@chinookcorp.com');
+
+--Insert two new records into Customer table.
+SELECT * FROM customer;
+INSERT INTO customer VALUES(60, 'Baby', 'Corner', NULL, '99 Mulberry Lane', 'Mulberry'
+    , 'Mulberry', 'Mulberry', '99', '+420 (228) 194-2319', NULL, 'babybaby@gmail.com', '2');
+INSERT INTO customer VALUES(61, 'Wazowski', 'Mike', NULL, '99 Pookie Poo Lane', 'Sully''s Place'
+    , 'Sully''s Place', 'Sully''s Place', '98', '+420 (224) 941-2319', NULL, 'mikeythebigmike@gmail.com', '4');
+
+----Task 2.4!
+--Update Aaron Mitchell in Customer table to Robert Walter.
+UPDATE customer SET firstname = 'Robert' WHERE firstname= 'Aaron';
+UPDATE customer SET lastname = 'Walter' WHERE lastname= 'Mitchell';
+
+--Update name of artist in the Artist table “Creedence Clearwater Revival” to “CCR”.
+SELECT * FROM artist;
+UPDATE artist SET name = 'CCR' WHERE name = 'Creedence Clearwater Revival';
+
+----Task 2.5!
+--Select all invoices with a billing address like “T%”.
+SELECT * FROM invoice;
+SELECT * FROM invoice WHERE billingaddress LIKE 'T%';
+
+----Task 2.6!
+--Select all invoices that have a total between 15 and 50.
+SELECT * FROM invoice WHERE total < 50 AND total > 15;
+
+--Select all employees hired between 1st of June 2003 and 1st of March 2004.
+SELECT * FROM employee WHERE hiredate BETWEEN '01-Jun-03' AND '01-MAR-04';
+
+----Task 2.7!
+--Delete a record in Customer table where the name is Robert Walter
+--(There may be constraints that rely on this, find out how to resolve them).
+ALTER TABLE invoice  
+DISABLE CONSTRAINT FK_INVOICECUSTOMERID;  
+DELETE FROM customer WHERE firstname='Robert' AND lastname='Walter';
+
+----Task 3.1!
+--Create a function that returns the current time.
+CREATE OR REPLACE PROCEDURE what_time_is_it
+IS
+    BEGIN
+        DBMS_OUTPUT.PUT_LINE('What time is it??? It''s '
+        || TO_CHAR(SYSDATE, 'MM-DD-YY HH:MI:SS AM')
+    );
+END;
+/
+BEGIN
+ what_time_is_it;
+END;
+/
+--Create a function that returns the length of name in MEDIATYPE table.
+SELECT * FROM mediatype;
+
+CREATE OR REPLACE PROCEDURE getLengths
+AS
+    BEGIN
+        SELECT LENGTH(name) AS namelength
+        INTO VIEW
+        FROM mediatype;
+    END;
+/
+
+SELECT LENGTH(name) AS namelength
+        FROM mediatype;
+
+----Task 3.2!
+--Create a function that returns the average total of all invoices.
+SELECT * FROM invoice;
+CREATE OR REPLACE FUNCTION invoiceAverage
+RETURN NUMBER
+AS AVERAGE NUMBER;
+    BEGIN
+        SELECT AVG(total) INTO AVERAGE
+        FROM invoice;
+        RETURN AVERAGE;
+    END;
+/
+DECLARE
+    avAv NUMBER;
+BEGIN
+    avAv := invoiceAverage;
+    DBMS_OUTPUT.PUT_LINE(avAv);
+END;
+/
+--Create a function that returns the most expensive track
+SELECT * FROM track;
+CREATE OR REPLACE FUNCTION mostExpensiveTrack
+RETURN NUMBER
+IS
+    maxid NUMBER;
+BEGIN
+    SELECT MAX(unitprice) INTO maxid FROM track;
+    RETURN  maxid;
+END;
+/
+DECLARE
+    maxid NUMBER;
+BEGIN
+    maxid := mostExpensiveTrack();
+    DBMS_OUTPUT.PUT_LINE('THE MAX: ' || maxid);
+END;
+/
+
+----Task 3.3!
+--Create a function that returns the average price of invoiceline items in the invoiceline table.
+SELECT * FROM invoiceline;
+
+CREATE OR REPLACE FUNCTION invoicelineAverage
+RETURN NUMBER
+AS AVERAGE NUMBER;
+    BEGIN
+        SELECT AVG(unitprice) INTO AVERAGE
+        FROM invoiceline;
+        RETURN AVERAGE;
+    END;
+/
+DECLARE
+    avAv NUMBER;
+BEGIN
+    avAv := invoicelineAverage;
+    DBMS_OUTPUT.PUT_LINE(avAv);
+END;
+/
+
+----Task 3.4!
+--Create a function that returns all employees who are born after 1968.
+
+CREATE OR REPLACE FUNCTION after_1968 RETURN SYS_REFCURSOR
+IS
+  employee_c SYS_REFCURSOR;
+BEGIN
+  OPEN employee_c FOR SELECT * FROM employee
+                        WHERE birthdate >= TO_DATE('01-01-1968','DD-MM-YYYY');
+  RETURN employee_c;
+END;
+/
+SELECT after_1968 FROM dual;
+
+----Task 4.1!
+--Create a stored procedure that selects the first and last names of all the employees.
+
+
+
+
+
+
+
+
+

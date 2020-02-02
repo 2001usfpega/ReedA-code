@@ -1,0 +1,209 @@
+--PLSQLexample.sql
+
+--create a user
+CREATE USER fooddb IDENTIFIED BY p4ssw0rd;
+
+GRANT CONNECT, RESOURCE TO fooddb;
+GRANT DBA TO fooddb WITH ADMIN OPTION;
+
+CREATE TABLE food(
+    food_id NUMBER(15)
+    , food_name VARCHAR2(100) UNIQUE
+    , recipe VARCHAR2(500) NOT NULL
+    , PRIMARY KEY(food_id)
+);
+
+INSERT INTO food VALUES (0, 'Macaroni and Cheese', 'Pure love');
+INSERT INTO food VALUES (1, 'Bacon', 'Love and clogged arteries');
+INSERT INTO food VALUES (2, 'Cereal', 'Milk and stuff');
+INSERT INTO food VALUES (3, 'PB and J', 'Otters');
+INSERT INTO food VALUES (4, 'Spaghetti', 'Noodles and sauce');
+
+DROP TABLE food;
+
+SELECT * FROM food;
+
+--COMMIT;
+
+--STORED PROCEDURES - a function/method (method is attached to a class or object)
+--CREATE  procedure
+CREATE OR REPLACE PROCEDURE hello_world_procedure
+IS
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('HELLO WORLD!');
+END;
+/
+--INVOKE a procedure
+BEGIN
+    hello_world_procedure();
+END;
+/
+/*
+structure of a stored procedure in PL/SQL
+CREATE (OR REPLACE) PROCEDURE procedure_name (list of parameters)
+IS
+    declaration
+BEGIN
+    execution of logic
+EXCEPTION
+    exception
+END;
+/ must have slash at the end
+*/
+
+--INSERT stored procedure
+CREATE OR REPLACE PROCEDURE insert_food(f_id IN NUMBER, f_name IN VARCHAR2,
+    f_recipe IN VARCHAR2)
+IS
+BEGIN
+    INSERT INTO food VALUES (f_id, f_name, f_recipe);
+    COMMIT;
+END;
+/
+
+BEGIN
+    insert_food(11, 'pizza', 'cheese, bread, love');
+    insert_food(12, 'booze', 'booze ain''t foods');
+END;
+/
+
+COMMIT;
+
+SELECT * FROM food;
+
+--OUT
+CREATE OR REPLACE PROCEDURE get_food(f_id IN food.food_id%TYPE
+    , f_name OUT food.food_name%TYPE, tempVar OUT NUMBER)
+IS
+BEGIN
+    SELECT food_name INTO f_name FROM food WHERE food_id = f_id;
+    SELECT 5 INTO tempVar FROM dual;
+END;
+/
+DECLARE
+    tempVariable VARCHAR(4000);
+    temp2 NUMBER(2);
+BEGIN
+    get_food(11, tempVariable, temp2);
+    DBMS_OUTPUT.PUT_LINE(temp2 || ' solution: ' || tempVariable);
+END;
+/
+
+CREATE OR REPLACE FUNCTION get_max_id
+RETURN NUMBER
+IS
+    max_id NUMBER;
+BEGIN
+    SELECT MAX(food_id) INTO max_id FROM food;
+    RETURN  max_id;
+END;
+/
+
+DECLARE
+    max_id NUMBER;
+BEGIN
+    max_id := get_max_id();
+    DBMS_OUTPUT.PUT_LINE('THE MAX: ' || max_id);
+END;
+/
+
+SELECT * FROM  food ORDER BY food_id DESC;
+
+CREATE OR REPLACE FUNCTION get_max(num1 IN NUMBER, num2 IN NUMBER)
+RETURN NUMBER
+IS
+BEGIN
+    IF  num1 > num2 THEN
+        RETURN num1;
+    ELSE
+        RETURN num2;
+    END IF;
+END;
+/
+
+DECLARE
+    greater NUMBER;
+BEGIN
+    greater := get_max(55000000, 26000);
+    DBMS_OUTPUT.PUT_LINE('max num is: ' || greater);
+END;
+/
+
+/*
+    stored procedures                       vs                        functions
+    
+NO return                                                                   MUST return a value or set
+DML, DQL                                                                   DQL
+IN/OUT parameters (values and references)           only IN parameters
+procedures can call functions                                      CANNOT call procedures
+execution block only                                                    CAN be used in queries OR execution blocks
+
+(yes, you can use a procedure inside of another procedure)
+
+*/
+
+--SEQUENCES - a number generator
+CREATE SEQUENCE food_seq
+    START WITH 100
+    INCREMENT BY 3;
+    
+CREATE OR REPLACE PROCEDURE insert_food_null_id(f_name IN VARCHAR2
+    , f_recipe IN  VARCHAR2)
+IS
+BEGIN
+    INSERT INTO food VALUES(food_seq.NEXTVAL, f_name, f_recipe);
+    COMMIT;
+END;
+/
+SELECT * FROM food;
+
+--INSERT INTO food VALUES(NULL, 'chicken', 'chicken');
+
+BEGIN
+    insert_food_null_id('buttered toast', 'gravy, double d');
+    insert_food_null_id('jawbreaker', 'only a quarter');
+END;
+/
+
+--DROP SEQUENCE food_seq;
+
+--TRIGGER - essentially an event listener
+CREATE OR REPLACE TRIGGER food_insertb
+BEFORE INSERT ON food
+FOR EACH ROW
+BEGIN
+    IF :new.food_id IS NULL THEN
+        SELECT food_seq.NEXTVAL INTO :new.food_id FROM dual;
+    END IF;
+END;
+/
+
+--CURSOR - points to a result set and remembers which line numbers it has already read
+    -- similar to a java iterator
+
+--VIEW - a saved query in database (a virtual table)
+SELECT * FROM food WHERE food_id BETWEEN 2 and 4;
+CREATE OR REPLACE VIEW between_food_view AS
+    SELECT * FROM food WHERE food_id BETWEEN 2 and 4;
+
+SELECT * FROM between_food_view;
+
+CREATE OR REPLACE FUNCTION after_1968 RETURN SYS_REFCURSOR
+IS
+  employee_c SYS_REFCURSOR;
+BEGIN
+  OPEN employee_c FOR SELECT * FROM employee
+                        WHERE birthdate >= TO_DATE('01-01-1968','DD-MM-YYYY');
+  RETURN employee_c;
+END;
+/
+
+SELECT after_1968 FROM dual;
+
+COMMIT;
+
+
+
+
+

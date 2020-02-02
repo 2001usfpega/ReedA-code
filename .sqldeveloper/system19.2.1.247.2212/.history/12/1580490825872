@@ -1,0 +1,69 @@
+--SQL Lab!
+--Made by Alia Reed
+
+----Task 2.1!
+--Select all records from the Employee table.
+SELECT * FROM employee;
+
+--Select all records from the Employee table where last name is King.
+SELECT * FROM employee WHERE lastname = 'King';
+
+--Select all records from the Employee table where first name is Andrew and REPORTSTO is NULL.
+SELECT * FROM employee WHERE firstname = 'Andrew' AND reportsto IS NULL;
+
+----Task 2.2!
+--Select all albums in Album table and sort result set in descending order by title.
+SELECT * FROM album ORDER BY title DESC;
+
+--Select first name from Customer and sort result set in ascending order by city
+SELECT * FROM customer ORDER BY city ASC;
+
+----Task 2.3!
+--Insert two new records into Genre table.
+SELECT * FROM genre;
+INSERT INTO genre VALUES(26, 'Anime OSTs');
+INSERT INTO genre VALUES(27, 'Video Game OSTs');
+
+--Insert two new records into Employee table.
+SELECT * FROM employee;
+INSERT INTO employee VALUES(9, 'Lane',' Mazikeen', 'Secretary', NULL,' 08-JUN-32'
+    ,'09-JUN-75','18 Deadman''s Wonderland', 'Heck', 'Heck', 'Heck', '666'
+    ,'+1 (666) 666-6669', '+1 (666) 420-4200', 'mazikeen@chinookcorp.com');
+INSERT INTO employee VALUES(10, 'Beur', 'Zaqary', 'Secretary', NULL, '12-APR-27'
+    ,'01-APR-77','19 Deadman''s Wonderland', 'Heck', 'Heck', 'Heck', '666'
+    , '+1 (666) 666-6669' ,'+1 (666) 420-4200', 'zaqary@chinookcorp.com');
+
+
+SELECT * FROM customer;
+INSERT INTO customer VALUES(60, 'Baby', 'Corner', NULL, '99 Mulberry Lane', 'Mulberry'
+    , 'Mulberry', 'Mulberry', '99', '+420 (228) 194-2319', NULL, 'babybaby@gmail.com', '2');
+INSERT INTO customer VALUES(61, 'Wazowski', 'Mike', NULL, '99 Pookie Poo Lane', 'Sully''s Place'
+    , 'Sully''s Place', 'Sully''s Place', '98', '+420 (224) 941-2319', NULL, 'mikeythebigmike@gmail.com', '4');
+
+UPDATE customer SET firstname = 'Robert' WHERE firstname= 'Aaron';
+UPDATE customer SET lastname = 'Walter' WHERE lastname= 'Mitchell';
+
+SELECT * FROM artist;
+
+UPDATE artist SET name = 'CCR' WHERE name = 'Creedence Clearwater Revival';
+
+SELECT * FROM invoice;
+SELECT * FROM invoice WHERE billingaddress LIKE 'T%';
+
+SELECT * FROM invoice WHERE total < 50 AND total > 15;
+SELECT * FROM employee WHERE hiredate BETWEEN '01-Jun-03' AND '01-MAR-04';
+
+ALTER TABLE invoice  
+DISABLE CONSTRAINT FK_INVOICECUSTOMERID;  
+DELETE FROM customer WHERE firstname='Robert' AND lastname='Walter';
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+---QUERY BASICS!!!!!
+
+DESC employee
+--SELECT * <----------- * means all colums
+SELECT * FROM employee;
+--SELECT [column1, column2, etc] FROM [table name]
+SELECT lastname, firstname FROM employee;
+SELECT firstname, lastname FROM employee;
+--ALIAS (using AS) changes the name of the column temporarily
+SELECT lastname AS muffin, firstname AS button FROM employee;
+
+--DIFFERENT SELECTS
+SELECT * FROM employee;
+--WHERE CLAUSE - coffee filter
+SELECT * FROM employee WHERE title = 'Sales Support Agent';
+SELECT * FROM employee WHERE title = 'Sales Support Agent' AND firstname = 'Jane';
+SELECT * FROM employee WHERE firstname = 'Jane' OR firstname = 'Steve'
+    OR firstname = 'Nancy';
+
+SELECT * FROM employee WHERE reportsto > 1;
+

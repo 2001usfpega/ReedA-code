@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM superhumans;]]></sql>
+		<connection><![CDATA[Superhuman]]></connection>
+		<timestamp><![CDATA[1580331190085]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[4]]></executed>
+		<execTime><![CDATA[0.047]]></execTime>
+	</historyItem>
+</history>

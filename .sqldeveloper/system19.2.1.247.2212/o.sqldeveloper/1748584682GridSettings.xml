@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">FOOD_ID</Item>
+      <Item class="java.lang.String">FOOD_NAME</Item>
+      <Item class="java.lang.String">RECIPE</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>80</Item>
+      <Item>140</Item>
+      <Item>172</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item class="java.lang.String">1 asc</Item>
+      <Item/>
+      <Item class="java.lang.String">2 asc</Item>
+   </sortClauses>
+   <uniqueName>IdeConnections%23Food+DBSELECT * FROM food</uniqueName>
+</TableSettings>

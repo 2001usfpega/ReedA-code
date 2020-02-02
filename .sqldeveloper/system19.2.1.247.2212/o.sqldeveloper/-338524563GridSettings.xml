@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">ALBUMID</Item>
+      <Item class="java.lang.String">TITLE</Item>
+      <Item class="java.lang.String">ARTISTID</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>80</Item>
+      <Item>343</Item>
+      <Item>82</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23ChinookSELECT * FROM album</uniqueName>
+</TableSettings>

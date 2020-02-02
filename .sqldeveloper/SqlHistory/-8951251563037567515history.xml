@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/.sqldeveloper/SQLChinookLab.sql]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580595981392]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[146]]></executed>
+		<execTime><![CDATA[0.1]]></execTime>
+	</historyItem>
+</history>

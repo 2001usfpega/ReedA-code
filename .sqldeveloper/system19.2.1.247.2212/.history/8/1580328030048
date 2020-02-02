@@ -1,0 +1,9 @@
+--JOIN examples!!!!
+
+SELECT * FROM album;
+SELECT * FROM artist;
+
+--INNER JOIN
+SELECT * FROM artist a INNER JOIN album b ON a.artistid = b.artistid;
+
+SELECT COUNT(*) FROM artist a INNER JOIN album b ON a.artistid = b.artistid;

@@ -1,0 +1,12 @@
+----SCHEMEMANIPULATION.SQL
+
+--sql not case sensitive but all caps it convention
+SELECT * FROM album;
+SELECT * FROM ALBUM;
+
+--DDL: CREATE a table
+CREATE TABLE pokemon(
+    pokemon_id NUMBER(15) PRIMARY KEY
+    , pokemon_name VARCHAR2(100) --100 is size
+    , pokemon_type VARCHAR2(25) -- 25 is size
+);

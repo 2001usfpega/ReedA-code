@@ -1,0 +1,8 @@
+SELECT * FROM employee;
+SELECT * FROM employee WHERE lastname = 'King';
+SELECT * FROM employee WHERE firstname = 'Andrew' AND reportsto IS NULL;
+
+SELECT * FROM album ORDER BY title DESC;
+SELECT * FROM customer ORDER BY city ASC;
+
+INSERT INTO 

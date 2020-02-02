@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM artist a LEFT OUTER JOIN album b ON a.artistid = b.artistid
+    WHERE a.artistid NOT IN(
+        SELECT c.artistid FROM artist c INNER JOIN album d ON c.artistid = d.artistid
+    );]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580329570601]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[4]]></executed>
+		<execTime><![CDATA[0.047]]></execTime>
+	</historyItem>
+</history>

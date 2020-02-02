@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jws:workspace xmlns:jws="http://xmlns.oracle.com/ide/project">
+   <list n="contentSets">
+      <string v="RaptorFiles"/>
+   </list>
+   <list n="listOfChildren">
+      <hash><url n="URL" path="IdeConnections#Chinook.jpr"/></hash>
+      <hash><url n="URL" path="IdeConnections#Chinook.jpr"/></hash>
+      <hash><url n="URL" path="IdeConnections#Food+DB.jpr"/></hash>
+      <hash><url n="URL" path="IdeConnections#pokemondb.jpr"/></hash>
+      <hash><url n="URL" path="IdeConnections#revy_chans_database.jpr"/></hash>
+      <hash><url n="URL" path="IdeConnections#Chinook.jpr"/></hash>
+   </list>
+</jws:workspace>

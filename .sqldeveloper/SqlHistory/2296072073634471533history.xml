@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/.sqldeveloper/UserCreation.sql]]></sql>
+		<connection><![CDATA[MasterCode]]></connection>
+		<timestamp><![CDATA[1580240645126]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[3]]></executed>
+		<execTime><![CDATA[0.111]]></execTime>
+	</historyItem>
+</history>

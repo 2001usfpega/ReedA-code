@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM  food ORDER BY food_id DESC;]]></sql>
+		<connection><![CDATA[Food DB]]></connection>
+		<timestamp><![CDATA[1580402757935]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.041]]></execTime>
+	</historyItem>
+</history>

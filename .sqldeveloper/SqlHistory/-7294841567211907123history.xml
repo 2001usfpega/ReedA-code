@@ -1,0 +1,17 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[ALTER TABLE pokemon ADD nerd_level VARCHAR2(5);
+
+INSERT INTO nerd_level VALUES('fool');
+INSERT INTO nerd_level VALUES('fool');
+INSERT INTO nerd_level VALUES('fool');
+INSERT INTO nerd_level VALUES('fool');
+INSERT INTO nerd_level VALUES('fool');]]></sql>
+		<connection><![CDATA[pokemondb]]></connection>
+		<timestamp><![CDATA[1580248803610]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[1.753]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM album;]]></sql>
+		<connection><![CDATA[Chinook]]></connection>
+		<timestamp><![CDATA[1580399737222]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[8]]></executed>
+		<execTime><![CDATA[0.078]]></execTime>
+	</historyItem>
+</history>

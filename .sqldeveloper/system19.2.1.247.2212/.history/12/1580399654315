@@ -1,0 +1,3 @@
+SELECT * FROM employee;
+SELECT * FROM employee WHERE lastname = 'King';
+SELECT * FROM employee WHERE firstname = 'Andrew' AND reportsto = NULL;

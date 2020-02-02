@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM food WHERE food_id BETWEEN 2 and 4;]]></sql>
+		<connection><![CDATA[Food DB]]></connection>
+		<timestamp><![CDATA[1580408195999]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.064]]></execTime>
+	</historyItem>
+</history>

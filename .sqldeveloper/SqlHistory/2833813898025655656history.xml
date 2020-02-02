@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *
+FROM superhumans A
+INNER JOIN shuman_spower_junction B
+ON A.shuman_id = B.my_shuman_id
+INNER JOIN superpowers C
+On C.spower_id = B.my_spower_id;]]></sql>
+		<connection><![CDATA[Superhuman]]></connection>
+		<timestamp><![CDATA[1580332179711]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.061]]></execTime>
+	</historyItem>
+</history>

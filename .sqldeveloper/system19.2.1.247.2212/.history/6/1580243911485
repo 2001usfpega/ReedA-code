@@ -1,0 +1,10 @@
+---QUERY BASICS!!!!!
+
+DESC employee
+--SELECT * <----------- * means all colums
+SELECT * FROM employee;
+--SELECT [column1, column2, etc] FROM [table name]
+SELECT lastname, firstname FROM employee;
+SELECT firstname, lastname FROM employee;
+--ALIAS (using AS) changes the name of the column
+SELECT lastname AS muffin, firstname AS button FROM employee;

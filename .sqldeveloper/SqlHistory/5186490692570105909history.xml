@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/.sqldeveloper/UserCreation.sql]]></sql>
+		<connection><![CDATA[pokemondb]]></connection>
+		<timestamp><![CDATA[1580240654791]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.109]]></execTime>
+	</historyItem>
+</history>

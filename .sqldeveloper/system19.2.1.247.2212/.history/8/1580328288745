@@ -1,0 +1,19 @@
+--JOIN examples!!!!
+
+SELECT * FROM album;
+SELECT * FROM artist;
+
+--INNER JOIN
+--next two lines do the same thing
+SELECT * FROM artist a INNER JOIN album b ON a.artistid = b.artistid;
+SELECT * FROM artist a, album b WHERE a.artistid = b.artistid;
+
+SELECT COUNT(*) FROM artist a INNER JOIN album b ON a.artistid = b.artistid;
+
+--LEFT OUTER JOIN
+SELECT * FROM artist a LEFT OUTER JOIN album b ON a.artistid = b.artistid;
+
+SELECT COUNT(*) FROM artist a LEFT OUTER JOIN album b ON a.artistid = b.artistid;
+
+--old way of LEFT OUTER JOIN
+SELECT * FROM artist a, album b WHERE a.artistid = b.artistid(+);

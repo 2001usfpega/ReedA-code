@@ -1,0 +1,35 @@
+--PLSQLexample.sql
+
+--create a user
+CREATE USER fooddb IDENTIFIED BY p4ssw0rd;
+
+GRANT CONNECT, RESOURCE TO fooddb;
+GRANT DBA TO fooddb WITH ADMIN OPTION;
+
+CREATE TABLE food(
+    food_id NUMBER(15)
+    , food_name VARCHAR2(100) UNIQUE
+    , recipe VARCHAR2(500) NOT NULL
+    , PRIMARY KEY(food_id)
+);
+
+INSERT INTO food VALUES (0, 'Macaroni and Cheese', 'Pure love');
+INSERT INTO food VALUES (1, 'Bacon', 'Love and clogged arteries');
+INSERT INTO food VALUES (2, 'Cereal', 'Milk and stuff');
+INSERT INTO food VALUES (3, 'PB and J', 'Otters');
+INSERT INTO food VALUES (4, 'Spaghetti', 'Noodles and sauce');
+
+--DROP TABLE food;
+
+SELECT * FROM food;
+
+--COMMIT;
+
+--STORED PROCEDURES - a function/method (method is attached to a class or object)
+CREATE OR REPLACE PROCEDURE hello_world_procedure
+IS
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('HELLO WORLD!');
+END;
+/

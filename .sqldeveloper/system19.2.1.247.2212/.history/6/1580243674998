@@ -1,0 +1,7 @@
+---QUERY BASICS!!!!!
+
+DESC employee
+--SELECT
+SELECT * FROM employee;
+SELECT lastname, firstname FROM employee;
+SELECT firstname, lastname FROM employee;

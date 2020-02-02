@@ -1,0 +1,125 @@
+---QUERY BASICS!!!!!
+
+DESC employee
+--SELECT * <----------- * means all colums
+SELECT * FROM employee;
+--SELECT [column1, column2, etc] FROM [table name]
+SELECT lastname, firstname FROM employee;
+SELECT firstname, lastname FROM employee;
+--ALIAS (using AS) changes the name of the column temporarily
+SELECT lastname AS muffin, firstname AS button FROM employee;
+
+--DIFFERENT SELECTS
+SELECT * FROM employee;
+--WHERE CLAUSE - coffee filter
+SELECT * FROM employee WHERE title = 'Sales Support Agent';
+SELECT * FROM employee WHERE title = 'Sales Support Agent' AND firstname = 'Jane';
+SELECT * FROM employee WHERE firstname = 'Jane' OR firstname = 'Steve'
+    OR firstname = 'Nancy';
+
+SELECT * FROM employee WHERE reportsto > 1;
+
+--different ways to say "not equals"
+SELECT * FROM employee WHERE firstname != 'Jane';
+SELECT * FROM employee WHERE firstname ^= 'Jane';
+SELECT * FROM employee WHERE firstname <> 'Jane';
+SELECT * FROM employee WHERE NOT firstname = 'Jane';
+
+--NULL references
+--SELECT * FROM employee WHERE reportsto = null;
+--SELECT * FROM employee WHERE reportsto = (null);
+--SELECT * FROM employee WHERE reportsto = 'null';
+SELECT * FROM employee WHERE reportsto IS NULL;
+SELECT * FROM employee WHERE reportsto IS NOT NULL;
+
+DESC album;
+SELECT * FROM album;
+
+--LIKE keyword
+--% is a stand-in wildcard for 0 = or morecharacters
+-- _ is a stand-in wildcard for exactly one (1) character
+SELECT * FROM album WHERE title LIKE 'B%';
+SELECT * FROM album WHERE title LIKE '%Bi%';
+SELECT * FROM album WHERE title LIKE 'Big%O%ne%';
+SELECT * FROM album WHERE title LIKE 'BigOnes%';
+SELECT * FROM album WHERE title LIKE 'Big O_es%'; -- 1 result
+SELECT * FROM album WHERE title LIKE '%ig%O_nes'; -- 0 results
+
+DESC employee;
+
+--ORDER BY sorting defaults to ascending
+SELECT * FROM employee ORDER BY firstname;
+SELECT * FROM employee ORDER BY firstname ASC;
+SELECT * FROM employee ORDER BY firstname DESC;
+
+SELECT * FROM employee ORDER BY title, firstname;
+
+SELECT * FROM employee WHERE employeeid BETWEEN 5 and 7;
+SELECT * FROM employee WHERE employeeid BETWEEN 5 and 7 AND title = 'IT Staff';
+
+--IN - creates a set of possibilities
+SELECT * FROM employee WHERE firstname = 'Steve' OR firstname = 'Jane'
+    OR firstname = 'Nancy';
+SELECT * FROM employee WHERE firstname IN('Nancy', 'Jane', 'Steve');
+
+--SUBQUERY
+SELECT * FROM customer;
+SELECT * FROM invoice;
+
+SELECT * FROM customer WHERE customerid IN(
+    SELECT customerid FROM invoice B WHERE B.total > 16.0);
+
+SELECT customerid, total, invoiceid FROM (SELECT * FROM
+    invoice WHERE total > 16.00) WHERE invoiceid > 200;
+
+--AGGREGATE function - a calculation operating on a group of records/entries
+--types: COUNT, MAX, MIN, AVG, SUM, DISTINCT are the ones in focus right now
+SELECT * FROM album;
+SELECT COUNT(*) FROM album;
+SELECT * FROM employee;
+SELECT COUNT(*) FROM employee;
+SELECT COUNT(*) FROM employee WHERE title = 'Sales Support Agent';
+SELECT COUNT(DISTINCT(title)) FROM employee;
+SELECT * FROM invoice;
+SELECT invoiceid, customerid, total FROM invoice;
+SELECT MAX(total) FROM invoice;
+SELECT MIN(total) FROM invoice;
+SELECT AVG(total) FROM invoice;
+SELECT SUM(total) FROM invoice;
+SELECT MEDIAN(total) FROM invoice;
+
+SELECT billingcountry, total FROM invoice;
+SELECT billingcountry, total FROM invoice;
+
+--GROUP BY - operates aggregate functions on smaller pockets of data
+SELECT billingcountry, COUNT(*) AS sales FROM invoice GROUP BY billingcountry;
+
+--WHERE goes before GROUP BY goes before HAVING
+SELECT billingcountry, SUM(total) FROM invoice GROUP BY billingcountry
+    HAVING SUM(total) > 50;
+SELECT billingcountry, SUM(total) FROM invoice GROUP BY billingcountry
+    HAVING SUM(total) > 50 ORDER BY SUM(total) DESC;
+
+--SCALAR - calculation operating on one record/entry at a time
+--categories in Trevin's terms: numeri, character, date, conversion
+
+--dual is a dummy table that echoes a values back at you
+--used like sysout/cout
+SELECT 'hello word' FROM dual;
+SELECT 5 * 7 FROM dual;
+SELECT * FROM dual;
+
+--NUMERIC: abs(x), ceil(x), floor(x), trunc(x,y), round(x,y), etc.
+SELECT abs(-99) FROM dual;
+SELECT floor(88.77) FROM dual;
+SELECT ceil(88.77) FROM dual;
+SELECT trunc(-8886.77456787654567, -4) FROM dual;
+SELECT round(-8886.77456787654567, -5) FROM dual;
+
+
+
+
+
+
+COMMIT;
+

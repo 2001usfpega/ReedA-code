@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jws:workspace xmlns:jws="http://xmlns.oracle.com/ide/project">
+   <list n="contentSets">
+      <string v="RaptorFiles"/>
+   </list>
+   <hash n="RaptorFiles">
+      <list n="pattern-filters">
+         <string v="+**"/>
+      </list>
+      <list n="url-path">
+         <url protocol="file" path="/"/>
+      </list>
+   </hash>
+</jws:workspace>

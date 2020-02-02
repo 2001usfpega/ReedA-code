@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/aliareed/pokemonddbtrevin.sql]]></sql>
+		<connection><![CDATA[pokemondb]]></connection>
+		<timestamp><![CDATA[1580248918868]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[3.308]]></execTime>
+	</historyItem>
+</history>

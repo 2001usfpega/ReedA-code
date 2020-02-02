@@ -1,0 +1,7 @@
+--PLSQLexample.sql
+
+--create a user
+CREATE USER fooddb IDENTIFIED BY p4ssw0rd;
+
+GRANT CONNECT, RESOURCE TO fooddb;
+GRANT DBA TO fooddb WITH ADMIN OPTION;
