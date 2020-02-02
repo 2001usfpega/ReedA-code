@@ -189,42 +189,39 @@ BEGIN
     getNames;
 END;
 /
-------------- is printing laura callahan twice at the end????
+------------- it's printing laura callahan twice at the end????
 
 ----Task 4.2!
 --Create a stored procedure that updates the personal information of an employee.
-CREATE OR REPLACE PROCEDURE updatetheemployees(empid IN employee.employeeid%TYPE
-    , updatedid IN OUT employee%ROWTYPE)
+CREATE OR REPLACE PROCEDURE updateemployee
 IS
-        beepbop employee%ROWTYPE;
-    BEGIN
-        SELECT * INTO beepbop FROM employee WHERE employee.employeeid = empid;
-        
-        UPDATE employee emp
-        SET emp.lastname = updatedid.lastname,
-        SET emp.firstname = updatedid.firstname,
-        SET emp.title = updatedid.title,
-        SET emp.birthdate = updatedid.birthdate,
-        SET emp.address= updatedid.address,
-        SET emp.city = updatedid.city,
-        SET emp.state = updatedid.state,
-        SET emp.country = updatedid.country,
-        SET emp.postcalcode = updatedid.postalcode,
-        SET emp.phone = updatedid.phone,
-        SET emp.fax = updatedid.fax,
-        SET emp.email = updatedid.email,
-    WHERE emp.employeeid = empid;
-    DBMS_OUTPUT.PUT_LINE('Updated ' || empid);
-END
-/
-DECLARE
-    current employee%ROWTYPE;
 BEGIN
-    SELECT * INTO current FROM employee;
+    UPDATE employee SET firstname = 'Lauraaa' WHERE firstname = 'Laura';
+    UPDATE employee SET lastname = 'Callahen' WHERE lastname = 'Callahan';
+    UPDATE employee SET birthdate = '09-JAN-69' WHERE birthdate = '09-JAN-68';
 END;
 /
---Create a stored procedure that returns the managers of an employee.
+BEGIN
+    updateemployee;
+END;
+/
 
+--Create a stored procedure that returns the managers of an employee.
+CREATE OR REPLACE PROCEDURE returnmanager(id IN NUMBER, manager OUT VARCHAR2)
+IS
+    managerid NUMBER(10);
+BEGIN
+    SELECT reportsto INTO managerid FROM employee WHERE employeeid = id;
+    SELECT firstname || ' ' || lastname INTO manager FROM employee WHERE employeeid = managerid;
+END;
+/
+DECLARE
+    manager VARCHAR2(50);
+BEGIN
+    returnmanager(6, manager);
+    DBMS_OUTPUT.PUT_LINE(manager);
+END;
+/
 ----Task 4.3!
 --Create a stored procedure that returns the name and company of a customer.
 
