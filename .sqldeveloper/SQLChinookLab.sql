@@ -224,47 +224,109 @@ END;
 /
 ----Task 4.3!
 --Create a stored procedure that returns the name and company of a customer.
+SELECT * FROM customer;
+CREATE OR REPLACE PROCEDURE returncustomer(lname OUT VARCHAR2, fname OUT VARCHAR2
+    , comcast OUT VARCHAR2)
+IS
+BEGIN
+    SELECT lastname INTO lname FROM customer WHERE lastname = 'Martins';
+    SELECT firstname INTO fname FROM customer WHERE firstname = 'Eduardo';
+    SELECT company INTO comcast FROM customer WHERE company = 'Woodstock Discos';
+END;
+/
+BEGIN
+    returncustomer(lname, fname, comcast);
+    DBMS_OUTPUT.PUT_LINE(fname || ' ' || lname || ' works at ' || comcast || '!');
+END;
+/
 
 ----Task 5!
 --Create a transaction that given a invoiceId will delete that invoice.
 --(There may be constraints that rely on this, find out how to resolve them.)
+SELECT * FROM invoice;
+--ALTER TABLE invoice;
+--DISABLE CONSTRAINT FK_INVOICEINVOICEID;  
+DELETE FROM invoice WHERE invoiceid = 1;
 
 --Create a transaction nested within a stored procedure that inserts a new
 --record in the Customer table.
+SELECT * FROM customer;
+CREATE OR REPLACE PROCEDURE insertrecord
+IS
+BEGIN
+INSERT INTO customer VALUES(62, 'Googly', 'Bear', NULL, '99 Pookie Poo Lane', 'Sully''s Place'
+    , 'Sully''s Place', 'Sully''s Place', '98', '+420 (224) 941-2319', NULL, 'mikeythebigmike@gmail.com', '4');
+END;
+/
+BEGIN
+    insertrecord;
+END;
+/
 
 ----Task 6.1!
 --Create an after insert trigger on the employee table fired after a
 --new record is inserted into the table.
+SELECT * FROM employee;
+
+INSERT INTO employee VALUES(11, 'May', 'Rin', 'Secretary', NULL, '12-APR-27'
+    ,'01-APR-77','15 Deadman''s Wonderland', 'Heck', 'Heck', 'Heck', '666'
+    , '+1 (666) 666-6669' ,'+1 (666) 420-4200', 'Rin@chinookcorp.com');
+
+CREATE OR REPLACE TRIGGER afterinsert
+AFTER INSERT ON employee
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Someone was hired!');
+END;
+/
 
 --Create an after update trigger on the album table that fires after a row is
 --inserted in the table.
+SELECT * FROM album;
+INSERT INTO album VALUES(348, 'Monsters Inc. (Soundtrack from the Motion Picture', 270);
+
+CREATE OR REPLACE TRIGGER afterinsert2
+AFTER INSERT ON album
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('A new album has dropped!!');
+END;
+/
 
 --Create an after delete trigger on the customer table that fires after a row is deleted
 --from the table.
+SELECT * FROM customer;
 
+CREATE OR REPLACE TRIGGER afterdelete
+AFTER DELETE ON customer
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('A customer left us!');
+END;
+/
+DELETE customer WHERE lastname = 'Wazowski';
 ----Task 7.1!
 --Create an inner join that joins customers and orders and specifies the name
 --of the customer and the invoiceId.
+SELECT * FROM customer;
+SELECT * FROM invoice;
+SELECT * FROM customer a, invoice b WHERE a.customerid = b.invoiceid;
 
 ----Task 7.2!
 --Create an outer join that joins the customer and invoice table, specifying the
 --CustomerId, firstname, lastname, invoiceId, and total.
+SELECT * FROM customer a FULL OUTER JOIN invoice b ON a.customerid = b.invoiceid;
 
 ----Task 7.3!
 --Create a right join that joins album and artist specifying artist name and title.
+SELECT * FROM album a RIGHT OUTER JOIN artist b ON a.artistid = b.artistid;
 
 ----Task 7.4!
 --Create a cross join that joins album and artist and sorts by artist name in ascending order.
+SELECT * FROM album CROSS JOIN artist ORDER BY name ASC;
 
 ----Task 7.5!
 --Perform a self-join on the employee table, joining on the reportsto column.
+SELECT * FROM employee a INNER JOIN employee b ON a.employeeid = b.reportsto;
 
-
-
-
-
-
-
-
-
-
+COMMIT;
