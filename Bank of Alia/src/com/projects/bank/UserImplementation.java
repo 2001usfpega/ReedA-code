@@ -21,9 +21,25 @@ public class UserImplementation implements UserInterface {
 	}
 	
 	@Override
-	public int insertUser() {
+	public OneUserToRuleThemAll insertUser() {
 
-		return 0;
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+
+			// prepared statement guards against SQL injection because it's pre-compiled
+			
+			String sql = "INSERT INTO userwooser(firstname, lastname) VALUES(?, ?)";
+			
+			
+			PreparedStatement ps = conn.prepareStatement(sql);
+		//	ps.setString(1, firstname); // first question mark
+		//	ps.setString(2, lastname); // second question mark
+			
+			ps.executeUpdate();
+			
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	@Override
@@ -56,10 +72,6 @@ public class UserImplementation implements UserInterface {
 	public OneUserToRuleThemAll selectUserByName(String firstname, String lastname) {
 
 		try(Connection conn = DriverManager.getConnection(url, username, password)){
-
-			// prepared statement guards against SQL injection because it's pre-compiled
-			
-			//String sql = "INSERT INTO userwooser(firstname, lastname) VALUES(?, ?)";
 			
 			String sql = "SELECT * FROM userwooser WHERE firstname = ? AND lastname = ?";
 			
@@ -76,15 +88,28 @@ public class UserImplementation implements UserInterface {
 	}
 
 	@Override
-	public int updateUser(OneUserToRuleThemAll user) {
-
-		return 0;
+	public OneUserToRuleThemAll updateUser(String psstpsst, String firstname, String lastname) {
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+			
+			String sql = "UPDATE userwooser SET psstpsst = ? WHERE firstname = ? AND lastname = ?";
+			
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, psstpsst);
+			ps.setString(2, firstname);
+			ps.setString(3, lastname);
+			
+			ps.executeUpdate();
+			
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	@Override
-	public int deleteUser(OneUserToRuleThemAll user) {
+	public OneUserToRuleThemAll deleteUser(OneUserToRuleThemAll user) {
 
-		return 0;
+		return null;
 	}
 
 }

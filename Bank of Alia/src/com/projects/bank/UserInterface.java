@@ -5,7 +5,7 @@ import java.util.List;
 public interface UserInterface {
 
 	//CREATE
-	public int insertUser();
+	public OneUserToRuleThemAll insertUser();
 	
 	//READ
 	public List<OneUserToRuleThemAll> selectAllUsers();
@@ -13,9 +13,9 @@ public interface UserInterface {
 	public OneUserToRuleThemAll selectUserByName(String firstname, String lastname);
 
 	//UPDATE
-	public int updateUser(OneUserToRuleThemAll user);
+	public OneUserToRuleThemAll updateUser(String psstpsst, String firstname, String lastname);
 	
 	//DELETE
-	public int deleteUser(OneUserToRuleThemAll user);
+	public OneUserToRuleThemAll deleteUser(OneUserToRuleThemAll user);
 	
 }

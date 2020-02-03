@@ -17,15 +17,21 @@ CREATE TABLE userwooser(
     , PRIMARY KEY(identificationpls)
 );
 
-INSERT INTO userwooser(firstname, lastname) VALUES('Jinjun', 'Zhen');
-INSERT INTO userwooser(firstname, lastname) VALUES('Wendy', 'Moreland');
-INSERT INTO userwooser(firstname, lastname) VALUES('Amanda', 'Vocque');
+INSERT INTO userwooser(firstname, lastname, psstpsst) VALUES('Jinjun', 'Zhen', 'psstpsst');
+INSERT INTO userwooser(firstname, lastname, psstpsst) VALUES('Wendy', 'Moreland', 'psstpsst');
+INSERT INTO userwooser(firstname, lastname, psstpsst) VALUES('Amanda', 'Vocque', 'psstpsst');
 
-DELETE FROM userwooser WHERE psstpsst = NULL;
+SELECT * FROM userwooser;
+
+DELETE FROM userwooser;
 
 SELECT * FROM userwooser WHERE customer_id = 2;
 
-UPDATE userwooser SET psstpsst = 'password';
+UPDATE userwooser SET psstpsst = 'passwords' WHERE firstname = 'wendy' AND lastname = 'moreland';
+
+UPDATE userwooser SET 
+
+UPDATE userwooser SET firstname = ? , lastname = ? WHERE firstname = ? AND lastname = ?
 
 CREATE TABLE accountsmaccount(
 
