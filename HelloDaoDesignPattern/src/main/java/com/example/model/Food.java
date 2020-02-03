@@ -14,7 +14,7 @@ public class Food {
 	 */
 	
 	public Food() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public Food(int food_id, String food_name, String food_recipe) {
