@@ -14,12 +14,12 @@ public class Main {
 		UserImplementation user = new UserImplementation();
 		Scanner uncleStan = new Scanner(System.in);
 		int choice;
-		boolean leaves = true;
+		boolean staystaystay = true;
 		do {
 			System.out.println("Please press one!");
 			choice = uncleStan.nextInt();
 			if(choice == 9) {
-				leaves = false;
+				staystaystay = false;
 			}
 
 		switch(choice) {
@@ -71,14 +71,14 @@ public class Main {
 				break;
 			//exit
 			case 9:
-				leaves = false;
+				staystaystay = false;
 				break;
 			//invalid input
 			default:
 				System.out.println("Try again buster");
 				break;
 			}
-		} while(leaves);
+		} while(staystaystay);
 	}
 
 }
