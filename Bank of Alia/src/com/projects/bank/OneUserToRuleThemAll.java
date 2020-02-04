@@ -2,92 +2,92 @@ package com.projects.bank;
 
 public class OneUserToRuleThemAll {
 	
-	public int identificationpls;
+	public int idpls;
 	public String firstname;
 	public String lastnmame;
 	public String psstpsst;
-	public String firstname2;
-	public String lastname2;
-	public String psstpsst2;
+	public int checkpls;
+	public int savesave;
+	public boolean dadmin;
 	
 	public OneUserToRuleThemAll() {
 
 	}
 	
-	public OneUserToRuleThemAll(int identificationpls, String firstname, String lastnmame, String psstpsst,
-			String firstname2, String lastname2, String psstpsst2) {
+	public OneUserToRuleThemAll(int idpls, String firstname, String lastnmame, String psstpsst, int checkpls,
+			int savesave, boolean dadmin) {
 		super();
-		this.identificationpls = identificationpls;
+		this.idpls = idpls;
 		this.firstname = firstname;
 		this.lastnmame = lastnmame;
 		this.psstpsst = psstpsst;
-		this.firstname2 = firstname2;
-		this.lastname2 = lastname2;
-		this.psstpsst2 = psstpsst2;
+		this.checkpls = checkpls;
+		this.savesave = savesave;
+		this.dadmin = dadmin;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "OneUserToRuleThemAll [identificationpls=" + identificationpls + ", firstname=" + firstname
-				+ ", lastnmame=" + lastnmame + ", psstpsst=" + psstpsst + ", firstname2=" + firstname2 + ", lastname2="
-				+ lastname2 + ", psstpsst2=" + psstpsst2 + "]";
-		
+		return "OneUserToRuleThemAll [idpls=" + idpls + ", firstname=" + firstname + ", lastnmame=" + lastnmame
+				+ ", psstpsst=" + psstpsst + ", checkpls=" + checkpls + ", savesave=" + savesave + ", dadmin=" + dadmin
+				+ "]";
 	}
-	
-	public int getIdentificationpls() {
-		return identificationpls;
+
+	public int getIdpls() {
+		return idpls;
 	}
-	
-	public void setIdentificationpls(int identificationpls) {
-		this.identificationpls = identificationpls;
+
+	public void setIdpls(int idpls) {
+		this.idpls = idpls;
 	}
-	
+
 	public String getFirstname() {
 		return firstname;
 	}
-	
+
 	public void setFirstname(String firstname) {
 		this.firstname = firstname;
 	}
-	
+
 	public String getLastnmame() {
 		return lastnmame;
 	}
-	
+
 	public void setLastnmame(String lastnmame) {
 		this.lastnmame = lastnmame;
 	}
-	
+
 	public String getPsstpsst() {
 		return psstpsst;
 	}
-	
+
 	public void setPsstpsst(String psstpsst) {
 		this.psstpsst = psstpsst;
 	}
-	
-	public String getFirstname2() {
-		return firstname2;
+
+	public int getCheckpls() {
+		return checkpls;
 	}
-	
-	public void setFirstname2(String firstname2) {
-		this.firstname2 = firstname2;
+
+	public void setCheckpls(int checkpls) {
+		this.checkpls = checkpls;
 	}
-	
-	public String getLastname2() {
-		return lastname2;
+
+	public int getSavesave() {
+		return savesave;
 	}
-	
-	public void setLastname2(String lastname2) {
-		this.lastname2 = lastname2;
+
+	public void setSavesave(int savesave) {
+		this.savesave = savesave;
 	}
-	
-	public String getPsstpsst2() {
-		return psstpsst2;
+
+	public boolean isDadmin() {
+		return dadmin;
 	}
-	
-	public void setPsstpsst2(String psstpsst2) {
-		this.psstpsst2 = psstpsst2;
+
+	public void setDadmin(boolean dadmin) {
+		this.dadmin = dadmin;
 	}
 	
 }
+	

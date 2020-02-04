@@ -17,8 +17,27 @@ public class UserImplementation implements UserInterface {
 	
 	
 	public static void main(String[] args) {
-
+		
 	}
+	
+	public void login(int idpls, String psstpsst) {
+		
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+			
+			String sql = "SELECT * FROM userwooser WHERE idpls = ? AND psstpsst = ?";
+			
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, idpls);
+			ps.setString(2, psstpsst);
+			
+			ps.executeUpdate();
+			
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
 	
 	@Override
 	public OneUserToRuleThemAll insertUser() {
@@ -28,7 +47,6 @@ public class UserImplementation implements UserInterface {
 			// prepared statement guards against SQL injection because it's pre-compiled
 			
 			String sql = "INSERT INTO userwooser(firstname, lastname) VALUES(?, ?)";
-			
 			
 			PreparedStatement ps = conn.prepareStatement(sql);
 		//	ps.setString(1, firstname); // first question mark
@@ -88,15 +106,14 @@ public class UserImplementation implements UserInterface {
 	}
 
 	@Override
-	public OneUserToRuleThemAll updateUser(String psstpsst, String firstname, String lastname) {
+	public OneUserToRuleThemAll updateUser(String psstpsst, int idpls) {
 		try(Connection conn = DriverManager.getConnection(url, username, password)){
 			
-			String sql = "UPDATE userwooser SET psstpsst = ? WHERE firstname = ? AND lastname = ?";
+			String sql = "UPDATE userwooser SET psstpsst = ? WHERE idpls = ?";
 			
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, psstpsst);
-			ps.setString(2, firstname);
-			ps.setString(3, lastname);
+			ps.setInt(2, idpls);
 			
 			ps.executeUpdate();
 			

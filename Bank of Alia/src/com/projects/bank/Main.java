@@ -5,34 +5,79 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+
+		switchyswitch();
+	}
+
+	public static void switchyswitch() {
 		
-		Scanner scanningStan = new Scanner(System.in);
-		System.out.println("what's the password");
-		String psstpsst = scanningStan.nextLine();
-		System.out.println("what's the name 1");
-		String firstname = scanningStan.nextLine();
-		System.out.println("what's the name 2");
-		String lastname = scanningStan.nextLine();
-				
 		UserImplementation user = new UserImplementation();
-		user.updateUser(psstpsst, firstname, lastname);
+		Scanner uncleStan = new Scanner(System.in);
+		int choice = 0;
+		boolean leaves = true;
+		do {
+			if(choice == 9) {
+				leaves = false;
+			}
+		System.out.println("Please press one!");
+		choice = uncleStan.nextInt();
+		switch(choice) {
 		
-		System.out.println("thanks it's done");
-		
+			//login
+			case 1:
+				System.out.println("Enter ID please!");
+				int idpls = uncleStan.nextInt();
+				System.out.println("Enter password please!");
+				String psstpsst = uncleStan.next();
+				user.login(idpls, psstpsst);
+				break;
+			
+			//view
+			case 2:
+			
+				break;
+			
+			//update
+			case 3:
+			Scanner scanningStan = new Scanner(System.in);
+			System.out.println("what's the password");
+			psstpsst = scanningStan.nextLine();
+			System.out.println("what's the id");
+			idpls = scanningStan.nextInt();
+			user.updateUser(psstpsst, idpls);
+			System.out.println("thanks it's done");
+				break;
+			
+			//deposit
+			case 4:
+			
+				break;
+			//withdrawal
+			case 5:
+			
+				break;
+			//create
+			case 6:
+			
+				break;
+			//delete
+			case 7:
+			
+				break;
+			//logout
+			case 8:
+			
+				break;
+			//exit
+			case 9:
+				leaves = false;
+				break;
+			//invalid input
+			default:
+				System.out.println("Try again buster");
+				break;
+			}
+		} while(leaves == true);
 	}
-	
-	public boolean login(String a , String b) {
 
-		//checks if the entered and stored password are the same!
-		if(a.equals(b)) {
-
-			return true;
-
-		}else {
-
-			return false;
-		}
-	}
-	
-	
 }

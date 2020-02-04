@@ -13,7 +13,7 @@ public interface UserInterface {
 	public OneUserToRuleThemAll selectUserByName(String firstname, String lastname);
 
 	//UPDATE
-	public OneUserToRuleThemAll updateUser(String psstpsst, String firstname, String lastname);
+	public OneUserToRuleThemAll updateUser(String psstpsst, int idpls);
 	
 	//DELETE
 	public OneUserToRuleThemAll deleteUser(OneUserToRuleThemAll user);
