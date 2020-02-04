@@ -17373,3 +17373,280 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:51.751
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mJBVdZfL => OK
+!SESSION 2020-02-03 22:38:06.368 -----------------------------------------------
+eclipse.buildId=4.5.0.201912171052-RELEASE
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/aliareed/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/aliareed/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-02-03 22:38:12.547
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-02-03 22:38:13.367
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-03 22:38:13.367
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39004e4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f0ca069,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:16.844
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:16.844
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@79ac02a9[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:16.846
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:16.872
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:18.421
+!MESSAGE Boot LS startup time from start to initialized: 1567ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:18.452
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iCAWaneeisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.136
+!MESSAGE subscribing to classpath changes: sts4.classpath.iCAWanee isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.139
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.141
+!MESSAGE subsribers = {sts4.classpath.iCAWanee=Send Classpath Notifications(73)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.142
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.142
+!MESSAGE project Bank of Alia ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.142
+!MESSAGE project Bankingproject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.142
+!MESSAGE Preparing classpath changed notification Bank of Alia
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.143
+!MESSAGE project CoreJavaAssignment ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.143
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.143
+!MESSAGE project HelloDaoDesignPattern ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.143
+!MESSAGE project HelloHtml ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.144
+!MESSAGE project HelloJDBC ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.144
+!MESSAGE project JUnitFun ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.144
+!MESSAGE project ProjectMayhem ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.145
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.145
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.145
+!MESSAGE project ThatsSoMaven ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.146
+!MESSAGE project TheFirstStep ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.146
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.147
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iCAWanee => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.148
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.148
+!MESSAGE buffering callback sts4.classpath.iCAWanee Bank of Alia false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.149
+!MESSAGE Preparing classpath changed notification Bankingproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.151
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.152
+!MESSAGE buffering callback sts4.classpath.iCAWanee Bankingproject false 32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.153
+!MESSAGE Preparing classpath changed notification CoreJavaAssignment
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.153
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.154
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.155
+!MESSAGE buffering callback sts4.classpath.iCAWanee CoreJavaAssignment false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.155
+!MESSAGE Preparing classpath changed notification HelloDaoDesignPattern
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.155
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.157
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.158
+!MESSAGE buffering callback sts4.classpath.iCAWanee HelloDaoDesignPattern false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.158
+!MESSAGE Preparing classpath changed notification HelloHtml
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.159
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.160
+!MESSAGE classpath=55 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.161
+!MESSAGE buffering callback sts4.classpath.iCAWanee HelloHtml false 55
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.161
+!MESSAGE Preparing classpath changed notification HelloJDBC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.161
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.162
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.163
+!MESSAGE buffering callback sts4.classpath.iCAWanee HelloJDBC false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.163
+!MESSAGE Preparing classpath changed notification JUnitFun
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.164
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.165
+!MESSAGE classpath=37 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.165
+!MESSAGE buffering callback sts4.classpath.iCAWanee JUnitFun false 37
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.166
+!MESSAGE Preparing classpath changed notification ProjectMayhem
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.166
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.166
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.167
+!MESSAGE buffering callback sts4.classpath.iCAWanee ProjectMayhem false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.167
+!MESSAGE Preparing classpath changed notification ThatsSoMaven
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.167
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.169
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.169
+!MESSAGE buffering callback sts4.classpath.iCAWanee ThatsSoMaven false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.169
+!MESSAGE Preparing classpath changed notification TheFirstStep
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.170
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.171
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.171
+!MESSAGE buffering callback sts4.classpath.iCAWanee TheFirstStep false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.172
+!MESSAGE executing callback sts4.classpath.iCAWanee 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:19.211
+!MESSAGE executing callback sts4.classpath.iCAWanee SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-03 22:38:25.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-03 22:38:25.550
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.760
+!MESSAGE Preparing classpath changed notification Bank of Alia
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.760
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.761
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.761
+!MESSAGE buffering callback sts4.classpath.iCAWanee Bank of Alia false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.762
+!MESSAGE Preparing classpath changed notification HelloDaoDesignPattern
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.762
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.763
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.764
+!MESSAGE buffering callback sts4.classpath.iCAWanee HelloDaoDesignPattern false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.764
+!MESSAGE Preparing classpath changed notification HelloJDBC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.764
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.765
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.765
+!MESSAGE buffering callback sts4.classpath.iCAWanee HelloJDBC false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.765
+!MESSAGE executing callback sts4.classpath.iCAWanee 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:38:25.773
+!MESSAGE executing callback sts4.classpath.iCAWanee SUCCESS [done]

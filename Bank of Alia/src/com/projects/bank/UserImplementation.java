@@ -14,8 +14,7 @@ public class UserImplementation implements UserInterface {
 	private static String url = System.getenv("url");
 	private static String username = System.getenv("username");
 	private static String password = System.getenv("password");
-	
-	
+
 	public static void main(String[] args) {
 		
 	}
