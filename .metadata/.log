@@ -17265,3 +17265,111 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 20:53:37.742
 !MESSAGE executing callback sts4.classpath.mJBVdZfL SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-03 21:19:35.283
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-03 21:19:35.285
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.286
+!MESSAGE Preparing classpath changed notification Bank of Alia
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.286
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.287
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.287
+!MESSAGE buffering callback sts4.classpath.mJBVdZfL Bank of Alia false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.287
+!MESSAGE Preparing classpath changed notification HelloDaoDesignPattern
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.288
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.288
+!MESSAGE buffering callback sts4.classpath.mJBVdZfL HelloDaoDesignPattern false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.288
+!MESSAGE Preparing classpath changed notification HelloJDBC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.288
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.289
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.289
+!MESSAGE buffering callback sts4.classpath.mJBVdZfL HelloJDBC false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.289
+!MESSAGE executing callback sts4.classpath.mJBVdZfL 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 21:19:35.290
+!MESSAGE executing callback sts4.classpath.mJBVdZfL SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-03 22:20:47.782
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-03 22:20:47.784
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.787
+!MESSAGE Preparing classpath changed notification Bank of Alia
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.787
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.788
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.788
+!MESSAGE buffering callback sts4.classpath.mJBVdZfL Bank of Alia false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.788
+!MESSAGE Preparing classpath changed notification HelloDaoDesignPattern
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.788
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.789
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.789
+!MESSAGE buffering callback sts4.classpath.mJBVdZfL HelloDaoDesignPattern false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.789
+!MESSAGE Preparing classpath changed notification HelloJDBC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.789
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.790
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.790
+!MESSAGE buffering callback sts4.classpath.mJBVdZfL HelloJDBC false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.790
+!MESSAGE executing callback sts4.classpath.mJBVdZfL 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:47.796
+!MESSAGE executing callback sts4.classpath.mJBVdZfL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:51.750
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mJBVdZfL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:51.751
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mJBVdZfL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:51.751
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 22:20:51.751
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mJBVdZfL => OK

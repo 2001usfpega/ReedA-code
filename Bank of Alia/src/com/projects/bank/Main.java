@@ -13,14 +13,15 @@ public class Main {
 		
 		UserImplementation user = new UserImplementation();
 		Scanner uncleStan = new Scanner(System.in);
-		int choice = 0;
+		int choice;
 		boolean leaves = true;
 		do {
+			System.out.println("Please press one!");
+			choice = uncleStan.nextInt();
 			if(choice == 9) {
 				leaves = false;
 			}
-		System.out.println("Please press one!");
-		choice = uncleStan.nextInt();
+
 		switch(choice) {
 		
 			//login
@@ -77,7 +78,7 @@ public class Main {
 				System.out.println("Try again buster");
 				break;
 			}
-		} while(leaves == true);
+		} while(leaves);
 	}
 
 }
