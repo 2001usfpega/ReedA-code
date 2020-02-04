@@ -25,14 +25,22 @@ INSERT INTO userwooser(firstname, lastname, psstpsst, checkpls, savesave, dadmin
     VALUES('Wendy', 'Moreland', 'psstpsst', 400, 15000, 1);
 INSERT INTO userwooser(firstname, lastname, psstpsst, checkpls, savesave, dadmin)
     VALUES('Amanda', 'Vocque', 'psstpsst', 3000, 4000, 0);
+INSERT INTO userwooser(firstname, lastname, psstpsst, checkpls, savesave, dadmin)
+    VALUES('Todd', 'Emert', 'psstpsst', 0, 0, 0);
+
+SELECT checkpls, savesave FROM userwooser WHERE idpls = 1004;
 
 SELECT * FROM userwooser;
+
+SELECT * FROM userwooser WHERE idpls = 1000 AND psstpsst = 'psstpsst';
+
+DELETE FROM userwooser WHERE idpls = 1006;
 
 DELETE FROM userwooser;
 
 SELECT * FROM userwooser WHERE customer_id = 2;
 
-UPDATE userwooser SET psstpsst = 'psstpsst' WHERE idpls = 1002;
+UPDATE userwooser SET psstpsst = 'psstpsst' WHERE idpls = 1000;
 
 CREATE SEQUENCE custywusty
     START WITH 1000

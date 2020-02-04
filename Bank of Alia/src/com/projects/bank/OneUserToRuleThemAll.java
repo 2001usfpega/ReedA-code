@@ -26,11 +26,16 @@ public class OneUserToRuleThemAll {
 		this.dadmin = dadmin;
 	}
 
+	public OneUserToRuleThemAll(int rsInt, String rsString, String rsString1, String rsString2, int rsInt1, int rsInt2) {
+
+	}
+
 	@Override
 	public String toString() {
-		return "OneUserToRuleThemAll [idpls=" + idpls + ", firstname=" + firstname + ", lastnmame=" + lastnmame
-				+ ", psstpsst=" + psstpsst + ", checkpls=" + checkpls + ", savesave=" + savesave + ", dadmin=" + dadmin
-				+ "]";
+		return "ID = " + idpls + ", Name = " + firstname + " " + lastnmame
+				+ ", Password = " + psstpsst + ", Checking Account Balance = "
+				+ checkpls + ", Savings Account Balance = " + savesave + ", Admin? = " + dadmin
+				+ " ";
 	}
 
 	public int getIdpls() {

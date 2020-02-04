@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HelloServlets:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="458d30b2-aa7c-4668-a5b6-d3cb0c158a3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bank of Alia/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bank of Alia/.idea/libraries/ojdbc7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/src/main/java/HttpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT/HelloCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT/Resources/CSS/HTML/Bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT/Resources/CSS/HTML/trevinhtmlexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloHtml/target/HelloHtml-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/directservlet/DirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/indirectservlet/IndirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/SuperVillain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/CSS/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/CSS/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/classes/META-INF/HelloServlets.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/classes/com/example/directservlet/DirectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/classes/com/example/indirectservlet/IndirectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/classes/com/example/model/SuperVillain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/lib/jackson-annotations-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/lib/jackson-core-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/lib/jackson-databind-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/HelloServlets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/HelloServlets.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/directservlet/DirectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/model/SuperVillain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servers/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.sqldeveloper/BankOfAlia.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../.sqldeveloper/BankOfAlia.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/BankofAlia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/BankofAlia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/OneUserToRuleThemAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/OneUserToRuleThemAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/UserImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/UserImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/src/com/projects/bank/UserInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/target/classes/META-INF/maven/BankofAlia/BankofAlia/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/target/classes/META-INF/maven/BankofAlia/BankofAlia/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/OneUserToRuleThemAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/OneUserToRuleThemAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/UserImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/UserImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank of Alia/target/classes/com/projects/bank/UserInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloDaoDesignPattern/target/classes/META-INF/maven/com.example/HelloDaoDesignPattern/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloDaoDesignPattern/target/classes/META-INF/maven/com.example/HelloDaoDesignPattern/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloHtml/src/main/webapp/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloHtml/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloHtml/target/m2e-wtp/web-resources/META-INF/maven/HelloHtml/HelloHtml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloHtml/target/m2e-wtp/web-resources/META-INF/maven/HelloHtml/HelloHtml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloJDBC/target/classes/META-INF/maven/com.example/HelloJDBC/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloJDBC/target/classes/META-INF/maven/com.example/HelloJDBC/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitFun/target/classes/META-INF/maven/com.revature/JUnitFun/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitFun/target/classes/META-INF/maven/com.revature/JUnitFun/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/Servers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Servers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThatsSoMaven/target/classes/META-INF/maven/com.revature/ThatsSoMaven/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ThatsSoMaven/target/classes/META-INF/maven/com.revature/ThatsSoMaven/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HelloServlets" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XLrxtdiDuXwS3wtEM2mG75CJsf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/CSS" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="HelloServlets:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_HelloServlets_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56741" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HelloServlets:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="458d30b2-aa7c-4668-a5b6-d3cb0c158a3b" name="Default Changelist" comment="" />
+      <created>1580836465407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580836465407</updated>
+      <workItem from="1580836470049" duration="4796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="608" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580844424571">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="608" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.952@0.23.1680.952" timestamp="1580844424571" />
+    <state x="766" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1580842989485">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="766" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1680.952@0.23.1680.952" timestamp="1580842989485" />
+    <state x="703" y="162" key="DetectedRootsChooserDialog" timestamp="1580842586238">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="703" y="162" key="DetectedRootsChooserDialog/0.23.1680.952@0.23.1680.952" timestamp="1580842586238" />
+    <state width="705" height="241" key="GridCell.Tab.0.bottom" timestamp="1580844211185">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1580844211185" />
+    <state width="705" height="241" key="GridCell.Tab.0.center" timestamp="1580844211184">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1580844211184" />
+    <state width="705" height="241" key="GridCell.Tab.0.left" timestamp="1580844211183">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1580844211183" />
+    <state width="705" height="241" key="GridCell.Tab.0.right" timestamp="1580844211185">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1580844211185" />
+    <state width="705" height="241" key="GridCell.Tab.1.bottom" timestamp="1580844211130">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1580844211130" />
+    <state width="705" height="241" key="GridCell.Tab.1.center" timestamp="1580844211129">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1580844211129" />
+    <state width="705" height="241" key="GridCell.Tab.1.left" timestamp="1580844211129">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1580844211129" />
+    <state width="705" height="241" key="GridCell.Tab.1.right" timestamp="1580844211130">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1580844211130" />
+    <state width="705" height="241" key="GridCell.Tab.2.bottom" timestamp="1580844211131">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.2.bottom/0.23.1680.952@0.23.1680.952" timestamp="1580844211131" />
+    <state width="705" height="241" key="GridCell.Tab.2.center" timestamp="1580844211131">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.2.center/0.23.1680.952@0.23.1680.952" timestamp="1580844211131" />
+    <state width="705" height="241" key="GridCell.Tab.2.left" timestamp="1580844211130">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.2.left/0.23.1680.952@0.23.1680.952" timestamp="1580844211130" />
+    <state width="705" height="241" key="GridCell.Tab.2.right" timestamp="1580844211131">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="705" height="241" key="GridCell.Tab.2.right/0.23.1680.952@0.23.1680.952" timestamp="1580844211131" />
+    <state x="578" y="23" width="838" height="952" key="search.everywhere.popup" timestamp="1580842005164">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="578" y="23" width="838" height="952" key="search.everywhere.popup/0.23.1680.952@0.23.1680.952" timestamp="1580842005164" />
+  </component>
+</project>

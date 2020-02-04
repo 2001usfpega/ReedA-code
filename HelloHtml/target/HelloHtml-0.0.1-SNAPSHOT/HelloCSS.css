@@ -1,0 +1,61 @@
+/* 
+	css comment 
+*/
+
+/*
+	CSS STRUCTURE:
+		selector{
+			property-1:		value-1;
+			property-2:		value-2;
+			property-n:		value-n;
+		}
+		
+	# precedes selector then it's targeting an ID
+	. precedes selector then it's targeting a class
+*/
+/*class example*/
+.mario17{
+	text-align: center;
+	color: blueviolet;
+}
+
+h2{
+	text-align: right;
+}
+
+/*ID example*/
+#luigi13{
+	color: orange;
+}
+
+/*if another1 is a DIRECT child of webaddress then change it*/
+.another1 > .webaddress{
+	color: brown;
+}
+
+/*selects any child of a div tag*/
+div > * {
+	
+}
+
+/*selects all h1 tags that are in myClass class*/
+h1.myClass{
+	
+}
+
+/*box model demo*/
+.spidey{
+	border-style: solid;
+	border-width: 3px;
+	border-color: chocolate;
+	padding: 10px;
+	margin: 50px;
+}
+
+
+
+
+
+
+
+

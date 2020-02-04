@@ -9,18 +9,16 @@ import java.util.ArrayList;
 import java.util.List;
 import com.projects.bank.OneUserToRuleThemAll;
 
-public class UserImplementation implements UserInterface {
+public class UserImplementation {
 
 	private static String url = System.getenv("url");
 	private static String username = System.getenv("username");
 	private static String password = System.getenv("password");
 
-	public static void main(String[] args) {
-		
-	}
-	
-	public void login(int idpls, String psstpsst) {
-		
+	public void viewAccount(int idpls, String psstpsst) {
+
+		List<OneUserToRuleThemAll> user = new ArrayList<>();
+
 		try(Connection conn = DriverManager.getConnection(url, username, password)){
 			
 			String sql = "SELECT * FROM userwooser WHERE idpls = ? AND psstpsst = ?";
@@ -28,28 +26,67 @@ public class UserImplementation implements UserInterface {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, idpls);
 			ps.setString(2, psstpsst);
-			
-			ps.executeUpdate();
-			
+			ResultSet rs = ps.executeQuery();
+
+			while(rs.next()) {
+
+				user.add(
+						new OneUserToRuleThemAll(
+								rs.getInt(1),
+								rs.getString(2),
+								rs.getString(3),
+								rs.getString(4),
+								rs.getInt(5),
+								rs.getInt(6),
+								rs.getBoolean(7))
+				);
+			}
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
 
-	
-	@Override
-	public OneUserToRuleThemAll insertUser() {
+	public OneUserToRuleThemAll login(int idpls, String psstpsst) {
+
+		OneUserToRuleThemAll user = null;
 
 		try(Connection conn = DriverManager.getConnection(url, username, password)){
 
-			// prepared statement guards against SQL injection because it's pre-compiled
-			
-			String sql = "INSERT INTO userwooser(firstname, lastname) VALUES(?, ?)";
+			String sql = "SELECT * FROM userwooser WHERE idpls = ? AND psstpsst = ?";
+
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, idpls);
+			ps.setString(2, psstpsst);
+			ResultSet rs = ps.executeQuery();
+			if(rs.next()){
+			user = new OneUserToRuleThemAll(
+						rs.getInt(1),
+						rs.getString(2),
+						rs.getString(3),
+						rs.getString(4),
+						rs.getInt(5),
+						rs.getInt(6),
+						rs.getBoolean(7)
+				);
+			}
+
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return user;
+	}
+
+	public OneUserToRuleThemAll insertUser(String firstname, String lastname, String psstpsst) {
+
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+
+			String sql = "INSERT INTO userwooser(firstname, lastname, psstpsst) VALUES(?, ?, ?)";
 			
 			PreparedStatement ps = conn.prepareStatement(sql);
-		//	ps.setString(1, firstname); // first question mark
-		//	ps.setString(2, lastname); // second question mark
+			ps.setString(1, firstname);
+			ps.setString(2, lastname);
+			ps.setString(3, psstpsst);
 			
 			ps.executeUpdate();
 			
@@ -59,8 +96,7 @@ public class UserImplementation implements UserInterface {
 		return null;
 	}
 
-	@Override
-	public List<OneUserToRuleThemAll> selectAllUsers() {
+	public static List<OneUserToRuleThemAll> selectAllUsers() {
 
 		List<OneUserToRuleThemAll> user = new ArrayList<>();
 		
@@ -74,38 +110,53 @@ public class UserImplementation implements UserInterface {
 			while(rs.next()) {
 				
 				user.add(
-						new OneUserToRuleThemAll()
+						new OneUserToRuleThemAll(
+								rs.getInt(1),
+								rs.getString(2),
+								rs.getString(3),
+								rs.getString(4),
+								rs.getInt(5),
+								rs.getInt(6),
+								rs.getBoolean(7))
 				);
-				
 			}
-			
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
 		return user;
 	}
 
-	@Override
-	public OneUserToRuleThemAll selectUserByName(String firstname, String lastname) {
+	public OneUserToRuleThemAll selectUserByID(int idpls) {
+
+		OneUserToRuleThemAll user = new OneUserToRuleThemAll();
 
 		try(Connection conn = DriverManager.getConnection(url, username, password)){
 			
-			String sql = "SELECT * FROM userwooser WHERE firstname = ? AND lastname = ?";
+			String sql = "SELECT * FROM userwooser WHERE idpls = ?";
 			
 			PreparedStatement ps = conn.prepareStatement(sql);
-			ps.setString(1, firstname); // first question mark
-			ps.setString(2, lastname); // second question mark
-			
-			ps.executeUpdate();
-			
+			ps.setInt(1, idpls);
+
+			ResultSet rs = ps.executeQuery();
+			rs.next();
+
+			user.setIdpls(rs.getInt(1));
+			user.setFirstname(rs.getString(2));
+			user.setLastnmame(rs.getString(3));
+			user.setPsstpsst(rs.getString(4));
+			user.setCheckpls(rs.getInt(5));
+			user.setSavesave(rs.getInt(6));
+			user.setDadmin(rs.getBoolean(7));
+
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-		return null;
+		System.out.println(user);
+		return user;
 	}
 
-	@Override
-	public OneUserToRuleThemAll updateUser(String psstpsst, int idpls) {
+	public OneUserToRuleThemAll updateUserPassword(String psstpsst, int idpls) {
+
 		try(Connection conn = DriverManager.getConnection(url, username, password)){
 			
 			String sql = "UPDATE userwooser SET psstpsst = ? WHERE idpls = ?";
@@ -122,10 +173,96 @@ public class UserImplementation implements UserInterface {
 		return null;
 	}
 
-	@Override
-	public OneUserToRuleThemAll deleteUser(OneUserToRuleThemAll user) {
+	public OneUserToRuleThemAll updateUserChecking(int checkpls, int idpls){
 
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+
+			String sql = "UPDATE userwooser SET checkpls = ? WHERE idpls = ?";
+
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, checkpls);
+			ps.setInt(2, idpls);
+
+			ps.executeUpdate();
+
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
 		return null;
+	}
+
+	public OneUserToRuleThemAll updateUserSavings(int savesave, int idpls){
+
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+
+			String sql = "UPDATE userwooser SET save = ? WHERE idpls = ?";
+
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, savesave);
+			ps.setInt(2, idpls);
+
+			ps.executeUpdate();
+
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	public OneUserToRuleThemAll deleteUser(int idpls) {
+
+		try(Connection conn = DriverManager.getConnection(url, username, password)) {
+
+			String sql = "SELECT checkpls, savesave FROM userwooser WHERE idpls = ?";
+
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, idpls);
+			ResultSet rs = ps.executeQuery();
+
+			if (rs.next() && rs.getInt(1) == 0 &&
+					rs.getInt(2) == 0) {
+				sql = "DELETE FROM userwooser WHERE idpls = ?";
+
+				ps = conn.prepareStatement(sql);
+				ps.setInt(1, idpls);
+
+				ps.executeUpdate();
+			}else{
+				System.out.println("This account is not empty! Try again buster!");
+			}
+
+				}catch(SQLException e){
+				e.printStackTrace();
+		}
+		return null;
+	}
+
+	public OneUserToRuleThemAll isDadmin(int idpls){
+
+		OneUserToRuleThemAll user = new OneUserToRuleThemAll();
+
+		try(Connection conn = DriverManager.getConnection(url, username, password)){
+
+			String sql = "SELECT * FROM userwooser WHERE idpls = ?";
+
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1, idpls);
+
+			ResultSet rs = ps.executeQuery();
+			rs.next();
+
+			user.setIdpls(rs.getInt(1));
+			user.setFirstname(rs.getString(2));
+			user.setLastnmame(rs.getString(3));
+			user.setPsstpsst(rs.getString(4));
+			user.setCheckpls(rs.getInt(5));
+			user.setSavesave(rs.getInt(6));
+			user.setDadmin(rs.getBoolean(7));
+
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return user;
 	}
 
 }
